@@ -21,8 +21,7 @@ Testes correspondentes ficam em `backend/src/test/java/com/labagenda/delivery/`.
 
 ### Principios cobertos
 
-- SRP: criacao, persistencia e exibicao de pedidos em classes separadas
-- OCP: pagamento por cartao, PIX e dinheiro via interface extensivel
+- SRP:  persistencia e exibicao de pedidos em classes separadas
+- OCP: pagamento por cartao, PIX e dinheiro
 - LSP: hierarquia de produtos com `Pizza`, `Hamburguer` e `Bebida`
-- ISP: interfaces pequenas para notificacoes, relatorios, pedidos e entregas
 - DIP: servico de notificacao dependente de abstracao de canal
